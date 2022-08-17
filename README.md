@@ -6,14 +6,6 @@ A system for creating 3D models of objects is considered. It consists of the phy
 
 The final 3D model of the object represents a set of point clouds transformed from a camera coordinate system to a robot base coordinate system. The results of the experimental evaluation are presented by a colored 3D point cloud obtained by fusion of three RGB-D images acquired from different angles.
 
-## Description
-
-The developed system implies that the object is positioned in a certain place in relation to the robot and that the object must be such that it fits in the field of view of the camera, otherwise it needs to be changed camera position and orientation. The process of saving and transforming a point cloud into a coordinate one the robot base system is automated.
-
-![Eksperimentalni postav](https://user-images.githubusercontent.com/74960514/185080074-c36495d9-8963-4b9e-9c0b-a1fe3b75a72a.jpeg)
-
-The conducted experiments showed significant deviations in the transformation of point clouds recorded from different angles into a common coordinate system. Better results would be achieved through application of appropriate 3D point cloud registration methods, such as the Iterative Closest Point.
-
 ## Modules and Libraries Used
 
 - rospy
@@ -22,6 +14,14 @@ The conducted experiments showed significant deviations in the transformation of
 - open3d
 - numpy
 - moveit_commander
+
+## Results
+
+The developed system implies that the object is positioned in a certain place in relation to the robot and that the object must be such that it fits in the field of view of the camera, otherwise it needs to be changed camera position and orientation. The process of saving and transforming a point cloud into a coordinate one the robot base system is automated.
+
+![Eksperimentalni postav](https://user-images.githubusercontent.com/74960514/185080074-c36495d9-8963-4b9e-9c0b-a1fe3b75a72a.jpeg)
+
+The conducted experiments showed significant deviations in the transformation of point clouds recorded from different angles into a common coordinate system. Better results would be achieved through application of appropriate 3D point cloud registration methods, such as the Iterative Closest Point.
 
 ![multiple_back00](https://user-images.githubusercontent.com/74960514/185081044-46ae4125-0b58-4a66-940b-88920900cdc4.png)
 ![multiple_back01](https://user-images.githubusercontent.com/74960514/185081051-dba93fba-8fb3-4197-903e-a15c19572e01.png)

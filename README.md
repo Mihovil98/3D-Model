@@ -6,6 +6,8 @@ A system for creating 3D models of objects is considered. It consists of the phy
 
 The final 3D model of the object represents a set of point clouds transformed from a camera coordinate system to a robot base coordinate system. The results of the experimental evaluation are presented by a colored 3D point cloud obtained by fusion of three RGB-D images acquired from different angles.
 
+https://dabar.srce.hr/islandora/object/etfos:3114
+
 ## Modules and Libraries Used
 
 - rospy
